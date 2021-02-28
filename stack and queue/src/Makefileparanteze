@@ -1,0 +1,6 @@
+build:
+	gcc -g LinkedList.c Stack.c paranteze.c Queue.c -o paranteze
+run: build
+	./paranteze
+clean:
+	rm paranteze
